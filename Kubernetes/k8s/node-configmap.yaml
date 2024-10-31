@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: node-config
+data:
+  PORT: "3000"
+  MESSAGE: "Hello, this is a ConfigMap message from Kubernetes!"
